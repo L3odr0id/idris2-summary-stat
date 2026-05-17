@@ -7,7 +7,7 @@ import public Statistics.Probability
 
 --- Error function and co ---
 
-%foreign "C:erfc, libm 6"
+%foreign "C:erfc, libm"
 prim_erfc : Double -> Double
 
 export
