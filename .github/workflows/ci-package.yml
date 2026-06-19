@@ -27,6 +27,6 @@ defaults:
 
 jobs:
   ci:
-    uses: L3odr0id/build-n-test-idris2/.github/workflows/build-and-test.yml@master
+    uses: DepTyCheck/build-n-test-idris2/.github/workflows/build-and-test.yml@v1
     with:
       package: summary-stat
